@@ -82,7 +82,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+
+        "awesome:": {
+          "type": "awesome",
+          "heading": "instructions"
         }
+
       },
       "block_order": [
         "vendor",
