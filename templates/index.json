@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -53,7 +53,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand</p>",
+            "heading": "<p>Talk about your brand<\/p>",
             "heading_size": "h1"
           }
         },
@@ -69,6 +69,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -80,17 +82,24 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "full_width": false,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -137,8 +146,8 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -192,11 +201,66 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "16560962001bd2f077": {
+      "type": "masonry",
+      "blocks": {
+        "0ff6617d-5a01-4f6c-970f-c3185bb56eca": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/small-business-interior.jpg",
+            "text": "",
+            "link": ""
+          }
+        },
+        "2f67e215-2890-4048-af59-7f3e53a2a30d": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/working-from-home.jpg",
+            "text": "",
+            "link": ""
+          }
+        },
+        "d41c6818-0be9-4806-b8bd-15b515d50418": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/working-from-home.jpg",
+            "text": "",
+            "link": ""
+          }
+        },
+        "d3f5820e-2dae-4513-961f-177eaf6b1671": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/small-business-interior.jpg",
+            "text": "",
+            "link": ""
+          }
+        },
+        "29505132-cb51-412e-ba7d-eb709e786e3e": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0ff6617d-5a01-4f6c-970f-c3185bb56eca",
+        "2f67e215-2890-4048-af59-7f3e53a2a30d",
+        "d41c6818-0be9-4806-b8bd-15b515d50418",
+        "d3f5820e-2dae-4513-961f-177eaf6b1671",
+        "29505132-cb51-412e-ba7d-eb709e786e3e"
+      ],
+      "settings": {
+        "masonry-grid": ""
       }
     }
   },
@@ -206,6 +270,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "16560962001bd2f077"
   ]
 }
