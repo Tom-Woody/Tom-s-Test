@@ -9,11 +9,11 @@
 
 {{ 'component-masonry.css' | asset_url | stylesheet_tag }}
 
-<section class="page-width">
+<section class="">
 <div class="masonry-grid macy-container">
   {%- for block in section.blocks -%} 
   <div class="grid-item">
-      <img loading="lazy"src="{{block.settings.image | img_url:"400x" }}">
+      <img loading="lazy"src="{{block.settings.image | img_url:"700x" }}">
       <h2>{{block.settings.text}}</h2>
     </div>
     {%- endfor -%}
@@ -81,12 +81,12 @@
     container: '.macy-container',
     trueOrder: false,
     waitForImages: false,
-    margin: 124,
-    columns: 3,
+    margin: 24,
+    columns: 2,
     breakAt: {
-        1200: 5,
-        940: 3,
-        520: 2,
+        1200: 2,
+        940: 2,
+        520: 1,
         400: 1
     }
 });
